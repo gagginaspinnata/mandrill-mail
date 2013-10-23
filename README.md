@@ -10,7 +10,7 @@ Just install with
 
 The there is just a *send()* function who excepts 3 params. There is an example:
 
-```javsacript
+```node
 var client = require('mandrill-mail');
 
 var data = {
@@ -37,5 +37,5 @@ var data = {
  */
 client.send('my-secret-key', data, function(json){
 	console.log(json)
-	});
+});
 ```
