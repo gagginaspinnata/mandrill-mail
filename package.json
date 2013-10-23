@@ -2,7 +2,7 @@
   "name": "mandrill-mail",
   "version": "0.0.0",
   "description": "A simple mandrill wrapper for sending email.",
-  "main": "bundle.js",
+  "main": "mandrill-mail.js",
   "dependencies": {
     "request": "~2.27.0"
   },
@@ -10,12 +10,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "email",
-    "mail",
-    "mandrill",
-    "api"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gagginaspinnata/mandrill-mail.git"
+  },
   "author": "Mauro Marano",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/gagginaspinnata/mandrill-mail/issues"
+  }
 }
