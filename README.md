@@ -10,7 +10,7 @@ Just install with
 
 The there is just a *send()* function who excepts 3 params. There is an example:
 
-```node
+```js
 var client = require('mandrill-mail');
 
 var data = {
